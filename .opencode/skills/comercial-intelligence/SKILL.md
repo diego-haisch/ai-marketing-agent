@@ -65,6 +65,19 @@ This skill is a **living document**. Every time the user and I define something 
 
 ---
 
+## 3. Validated Learnings
+
+*Capture patterns that work after testing them in real outreach.*
+
+| Date | Learning | Source |
+|---|---|---|
+| 2026-07-14 | **WhatsApp ultra-corto works**: 5-line max, no pitch first message. Establish connection, then hook with pain point. | EseOese re-contact |
+| 2026-07-14 | **Use their language, not ours**: "one shot" + "clusterización manual" lands better than "forecast con IA por SKU". Interview pain points are the best source for this. | EseOese re-contact |
+| 2026-07-14 | **Re-contact after redirect**: Don't blame the person who didn't respond. Frame as "I developed something new" — creates curiosity without awkwardness. | EseOese re-contact |
+| 2026-07-14 | **Interview data is gold for outreach**: Having specific pain points from `data/estudio_mercado/Entrevistas/` makes messages 10x more relevant. Always check before writing to a company. | EseOese |
+
+---
+
 ## 3. Outreach Strategy Decisions
 
 *Log key decisions on approach, prioritization, and messaging.*
@@ -97,6 +110,7 @@ This skill is a **living document**. Every time the user and I define something 
 | Boboli | 2026-05-28 (Eva Robles) | 1. Primer mensaje | Follow-up |
 | Surkana | 2026-06-17 (Emma Escuer) | 1. Primer mensaje | Follow-up |
 | Munich | 2026-06-17 (Tatiana Jordan) | 1. Primer mensaje | Follow-up |
+| EseOese | 2026-07-14 (Jordi Barba) | 1. Primer mensaje | Re-contacto tras redirect — pain points: one shot, clusterización manual, stock dormido. Ver `data/comercial_contacts/2026-05-06_eseoese.md` |
 
 ### Tier 3 — New prospects
 | Company | Hook | Status | Next action |
@@ -113,5 +127,28 @@ This skill is a **living document**. Every time the user and I define something 
 | Week | Actions taken | Results | Learnings |
 |---|---|---|---|
 | 2026-07-07 | *(to be filled)* | | |
-| 2026-07-14 | | | |
-| 2026-07-21 | | | |
+| 2026-07-14 | EseOese: re-contacto Jordi Barba vía WhatsApp con ángulo pre-season. Pain points de entrevista con Alfonso (may): one shot, clusterización manual, "todo para todas las tiendas". Ficheros renombrados con fecha estándar. | Pendiente respuesta | WhatsApp ultra-corto (5 líneas) funciona mejor que email largo. Usar lenguaje del cliente ("one shot", "clusterización") no el nuestro ("forecast con IA"). |
+
+---
+
+## 6. Post-intel workflow (automático)
+
+Cuando se averigüe info nueva de una empresa o contacto:
+
+0. **Verificar/crear `id`** en contacts.yaml (`data/networking/contacts.yaml`):
+   - Si es contacto nuevo → asignar `id` (usuario decide formato)
+   - Si existe → usarlo para vincular con ficheros de mensaje
+
+1. **Actualizar contacts.yaml**:
+   - Añadir/actualizar: nombre, rol, LinkedIn, datos relevantes
+   - Actualizar `problema_detectado` si se infiere algo nuevo
+   - Añadir en `notas_clave` o `oportunidad_applychain`
+   - Actualizar `ultimo_contacto` si hay interacción
+
+2. **NO modificar entradas anteriores** en contacts.yaml:
+   - Mantener historial intacto
+   - Añadir nuevo en `historial` con fecha y resumen
+
+3. **Actualizar fichero de contacto** (`data/comercial_contacts/`):
+   - Añadir nueva entrada con fecha si es un mensaje
+   - NO borrar mensajes anteriores

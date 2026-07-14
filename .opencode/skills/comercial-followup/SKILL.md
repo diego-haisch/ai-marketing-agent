@@ -73,6 +73,22 @@ Use this skill when the user wants to:
 3. Timeline note (capacity filling up)
 4. Direct but respectful ask
 
+### Type E: "Re-contact after redirect" (redirected → same contact)
+**When**: Someone redirected you to another person who doesn't respond, or you need to re-engage the original contact with a new angle
+**Tactic**: Acknowledge the redirect briefly, then hook with a specific new development (product update, interview insight, pain point). Don't dwell on the failed redirect.
+**Channel**: Usually WhatsApp (shorter, more casual)
+**Structure**:
+1. Brief reminder ("te escribí hace [X] y me comentaste que hablara con [nombre]")
+2. New hook — something concrete and specific (module developed, insight from interview, pain point you can solve)
+3. Soft CTA ("me encantaría enseñártelo sin compromiso")
+**Length**: Max 5 lines on WhatsApp. Less is more.
+
+**Key rules**:
+- Don't blame the person who didn't respond ("German no me contestó")
+- Frame it as your initiative, not their problem
+- Use their language (pain points from interviews, not your service catalog)
+- If no response after this, park for 3+ months
+
 ---
 
 ## 4. The Scarcity Tactic (validated)
@@ -104,6 +120,11 @@ This is the most effective friendly pressure pattern for ApplyChain:
 
 ## 6. Examples from Real Use
 
+### Re-contact after redirect (EseOese / Jordi Barba, 2026-07-14)
+```
+Hola Jordi, ¿qué tal? Soy Diego, te escribí hace unas semanas y me comentaste que hablara con German. Te cuento: hemos desarrollado un módulo de planificación pre-season que creo que encaja muy bien con vuestro modelo de compras one shot. Estaría encantado de enseñártelo un día de estos sin compromiso, a ver qué te parece.
+```
+
 ### Friendly pressure after meeting (Punt Roma, 2026-07-07)
 ```
 Buenos días Alberto,
@@ -131,3 +152,22 @@ Before writing, ask the user for:
 - Any new developments on Diego's side (client wins, product updates)
 - Any market hooks (events, news, trends) to use as context
 - Language preference for this specific message
+
+---
+
+## 8. Post-follow-up workflow (automático)
+
+Después de cada follow-up, SIEMPRE:
+
+0. **Usar `id`** para buscar historial previo en contacts.yaml (`data/networking/contacts.yaml`):
+   - Buscar por `id` para encontrar el contacto
+   - Si no existe `id`, usar el nombre de la empresa como referencia
+
+1. **Actualizar contacts.yaml**:
+   - Añadir entrada en `historial`: fecha, tipo (Follow-up), resumen corto
+   - Actualizar `ultimo_contacto` con la fecha de hoy
+   - Actualizar `status` si avanza de pipeline (ej: 1→2)
+
+2. **NO modificar mensajes anteriores** en el fichero de contacto (`data/comercial_contacts/`):
+   - Añadir nueva entrada con formato: `## YYYY-MM-DD — [Canal] a [Nombre]`
+   - Mantener historial de mensajes intacto

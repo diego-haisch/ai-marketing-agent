@@ -121,9 +121,10 @@ Check `.opencode/skills/comercial-intelligence/` for:
 - Evolving commercial positioning decisions
 - Sector-specific hooks and angles
 
-Check `data/comercial_contact/contactes.yaml` for:
+Check `data/networking/contacts.yaml` for:
 - Full contact database with status, last contact date, sector, priority
 - Who to contact next based on pipeline stage
+- **Always update contacts.yaml after any new intel** — add to `historial`, update `ultimo_contacto`, update `status` if changed
 
 ## Variables to Ask For
 
