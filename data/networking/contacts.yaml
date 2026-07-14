@@ -1,0 +1,521 @@
+# ApplyChain — Base de datos de contactos
+# Formato: YAML para gestión fácil y seguimiento
+# Última actualización: 14 julio 2026 (Elena Cusi, James Welsh, Lola Casademunt)
+# Fuente: Excel "Empresas y contactos de interés.xlsx" + ficheros de contacto existentes
+
+# === ESTADOS DEL PIPELINE ===
+# 0. Prospección — Primer contacto aún no hecho
+# 1. Primer mensaje — Mensaje enviado, esperando respuesta
+# 2. Segundo mensaje — Follow-up enviado
+# 3. Reunión entrevista — Reunión realizada
+# 4. Precontrato — En negociación
+# 5. Contrato — Cliente activo
+# 6. Anulado — Descartado
+# 7. Bloqueado MV — Bloqueado por motivos externos
+
+# === CONTACTOS CON ACCIÓN REQUERIDA ===
+
+flabelus:
+  empresa: Flabelus
+  sector: Calzado / Fashion premium
+  pais: ES
+  prioridad: 1
+  status: 0. Prospección
+  contactos:
+    - nombre: Beatriz de los Mozos Velasco
+      rol: Founder y CEO
+      email: beatriz@flabelus.com
+      telefono: +34 610 683 069
+      linkedin: https://linkedin.com/in/beatriz-de-los-mozos-velasco-42337563
+  notas_clave:
+    - Crecimiento 100% YoY (€36M 2025 → €70M 2026)
+    - 31 tiendas propias + 700 POS multimarca + e-commerce en 42+ países
+    - Fábrica en Elche, España (producción local)
+    - Expansión activa: Alemania, Bélgica, Chile, Perú, México
+    - Bleckmann como operador logístico UK (marzo 2026)
+    - María Fernández-Álava de Zunzunegui como Directora de Operaciones
+  oportunidad_applychain:
+    - Forecasting multicanal complejo (31 tiendas + 700 POS + e-commerce global)
+    - Planificación de producción vs demanda (fábrica Elche)
+    - Redistribución de stock omnichannel
+    - Expansión internacional requiere forecasting local
+  nota: Contacto anterior con Domingo Barrachina (dejó empresa marzo 2026). Ahora con Beatriz como CEO.
+  proxima_accion: Pausa hasta septiembre 2026. Mejor momento post-verano.
+
+punt_roma:
+  empresa: Punt Roma
+  sector: Apparel
+  pais: ES
+  prioridad: 1
+  status: 3. Reunión entrevista
+  contactos:
+    - nombre: Sergio Ruiz
+      email: sruiz@puntroma.com
+      rol: Desconocido
+    - nombre: Alberto García
+      email: agarcia@puntroma.com
+      rol: Desconocido
+  nota_referencia: Noelia Mendoza (gerryweber.es) como intermediaria
+  ultimo_contacto: 2026-07-07
+  problema_detectado: Gestión de stock, necesidad de forecasting
+  proxima_accion: Pausa 1 semana más (decisión 14 jul)
+  historial:
+    - fecha: 2026-05-31
+      tipo: Reunión
+      resumen: Primera entrevista. Se detectaron oportunidades en gestión de stock.
+    - fecha: 2026-06-17
+      tipo: Email
+      resumen: Propuesta de PoC enfocada en forecasting. NDA + coordinación con equipo Data/IT.
+    - fecha: 2026-06-18
+      tipo: Respuesta
+      resumen: Sergio Ruiz responde positivamente: "Me pongo el proximo Lunes con ello"
+    - fecha: 2026-07-07
+      tipo: Follow-up
+      resumen: Presión amable a Alberto vía Noelia. Menciona proyectos activos con otras empresas.
+
+eseoese:
+  empresa: EseOese
+  sector: Apparel
+  pais: ES
+  prioridad: 1
+  status: 1. Primer mensaje
+  contactos:
+    - nombre: German
+      rol: Desconocido
+      nota: No responde
+    - nombre: Alfonso Palomares
+      rol: Director de Operaciones (ex)
+      nota: Responsable de planificación y distribución. Tiene contexto operativo.
+  nota_referencia: Jordi Barba + Alfonso Palomares
+  ultimo_contacto: 2026-07-07
+  problema_detectado: Redistribución de stock entre tiendas, mejora de forecast para compras
+  proxima_accion: Re-contactar a Alfonso Palomares (14-18 jul)
+  historial:
+    - fecha: 2026-07-07
+      tipo: Mensaje
+      resumen: Mensaje enviado a German. No hay respuesta.
+
+surkana:
+  empresa: Surkana
+  sector: Fashion retail
+  pais: ES
+  prioridad: 1
+  status: 1. Primer mensaje
+  contactos:
+    - nombre: Director/a de compras
+      rol: Head of Purchasing
+      nota: Sin nombre confirmado
+  nota_referencia: Emma Escuer
+  ultimo_contacto: 2026-07-07
+  problema_detectado: Forecasting con IA, planificación de compra, redistribución de stock
+  proxima_accion: Seguimiento / re-pisgar con nueva referencia (14-18 jul)
+  historial:
+    - fecha: 2026-07-07
+      tipo: Mensaje
+      resumen: Primer contacto vía Emma Escuer. Pitch en catalán.
+
+koroshi:
+  empresa: Koroshi
+  sector: Fashion accessories / retail
+  pais: ES
+  prioridad: 1
+  status: 1. Primer mensaje
+  contactos:
+    - nombre: Sonia Plaza
+      rol: CEO
+      nota: No responde. Demasiado liada.
+    - nombre: "#PENDIENTE"
+      rol: Director/a de operaciones o compras
+      nota: Hay que buscar en LinkedIn
+  nota_referencia: Jurgen Bumann
+  ultimo_contacto: 2026-07-07
+  problema_detectado: Retos operativos y tecnológicos en retail (por confirmar)
+  proxima_accion: Buscar contacto operativo en LinkedIn + escribir (14-18 jul)
+  historial:
+    - fecha: 2026-07-07
+      tipo: Mensaje
+      resumen: Primer contacto a Sonia Plaza (CEO). No hay respuesta.
+
+gigi_studios:
+  empresa: Gigi Studios
+  sector: Eyewear
+  pais: ES
+  prioridad: 1
+  status: 1. Primer mensaje
+  contactos:
+    - nombre: Juan Cruz Siburu
+      rol: Desconocido
+      nota: Ya escrito
+    - nombre: "#PENDIENTE"
+      rol: Otro contacto interno
+      nota: Diego tiene otro contacto en la empresa
+  nota_referencia: Autogestionado
+  ultimo_contacto: 2026-07-07
+  problema_detectado: Forecasting y replenishment (implícito del pitch)
+  proxima_accion: Escribir al otro contacto (14-18 jul)
+  historial:
+    - fecha: 2026-07-07
+      tipo: Mensaje
+      resumen: Primer contacto a Juan Cruz Siburu.
+
+lola_casademunt:
+  empresa: Lola Casademunt
+  sector: Eyewear retail
+  pais: ES
+  prioridad: 1
+  status: 1. Primer mensaje
+  contactos:
+    - nombre: "#PENDIENTE"
+      rol: CEO
+      nota: Antes se había escrito a la directora (está muy liada)
+  nota_referencia: Autogestionado
+  ultimo_contacto: Desconocido
+  problema_detectado: Por confirmar
+  proxima_accion: Contactar al CEO (14-18 jul)
+  historial:
+    - fecha: Desconocido
+      tipo: Mensaje
+      resumen: Primer contacto a la directora. Está muy liada.
+
+alan_afflelou:
+  empresa: Alan Afflelou
+  sector: Eyewear (retail)
+  pais: ES
+  prioridad: 2
+  status: 3. Reunión entrevista
+  contactos:
+    - nombre: Laure Pelloux
+      rol: CMO
+  nota_referencia: Autogestionado
+  ultimo_contacto: Desconocido
+  problema_detectado: Retos del sector óptica (conversación previa)
+  proxima_accion: DESCARTADO por ahora (no es el sector de Diego)
+  historial:
+    - fecha: Desconocido
+      tipo: Conversación
+      resumen: Laure dio referencias de Cortefiel y Adolfo Dominguez.
+
+# === CONTACTOS EN PIPELINE ACTIVO ===
+
+castanyer:
+  empresa: Castanyer
+  sector: Footwear
+  pais: ES
+  prioridad: 1
+  status: 3. Reunión entrevista
+  contactos:
+    - nombre: Ruben Egea
+      rol: Desconocido
+  ultimo_contacto: 2026-06-07
+  problema_detectado: Por confirmar
+
+crocs:
+  empresa: Crocs
+  sector: Footwear
+  pais: ES
+  prioridad: 2
+  status: 3. Reunión entrevista
+  contactos:
+    - nombre: Pamela Jabalera
+      rol: Desconocido
+  ultimo_contacto: 2026-06-07
+  problema_detectado: Por confirmar
+
+jerry_weber:
+  empresa: Jerry Weber
+  sector: Apparel
+  pais: ES
+  prioridad: 1
+  status: 3. Reunión entrevista
+  contactos:
+    - nombre: Noelia (Encuentro)
+      rol: Desconocido
+  ultimo_contacto: 2026-05-24
+  problema_detectado: Por confirmar
+
+encuentro:
+  empresa: Encuentro Moda
+  sector: Apparel
+  pais: ES
+  prioridad: 1
+  status: 2. Segundo mensaje
+  contactos:
+    - nombre: Daniel Mendez
+      rol: Desconocido
+  ultimo_contacto: 2026-05-23
+  problema_detectado: Por confirmar
+
+# === CONTACTOS ESTRATÉGICOS ===
+
+tomas_colonel:
+  empresa: simphio / CSCMP Spain
+  sector: Supply Chain consulting
+  pais: ES
+  prioridad: 1
+  status: 3. Reunión entrevista
+  contactos:
+    - nombre: Tomás Colonel
+      rol: Founder simphio, President CSCMP Spain, Partner Streamline
+  ultimo_contacto: 2026-07-07
+  problema_detectado: Colaboración estratégica, no cliente directo
+  proxima_accion: Segunda reunión (14 jul) — mapear habilidades y proyectos conjuntos
+  notas: Puede presentar a Mattias Scerra (Asutex), red CSCMP (Amazon, Celonis, La Sirena, EAE)
+
+# === CONTACTOS EN ESPERA (sin acción inmediata) ===
+
+bimani:
+  empresa: Bimani 13
+  sector: Apparel
+  pais: ES
+  prioridad: 1
+  status: 5. Contrato
+  contactos:
+    - nombre: Alicia Queralt
+      rol: Desconocido
+  ceo: Iñigo Zaldivar
+
+barner:
+  empresa: Barner
+  sector: Eyewear
+  pais: ES
+  prioridad: 2
+  status: 5. Contrato
+  contactos:
+    - nombre: Ramón
+      rol: Desconocido
+  nota: Contacto vía Miguel
+
+boboli:
+  empresa: Boboli
+  sector: Apparel
+  pais: ES
+  prioridad: 1
+  status: 1. Primer mensaje
+  contactos:
+    - nombre: Eva Robles
+      rol: Desconocido
+  ultimo_contacto: 2026-05-28
+  problema_detectado: Tesorería ligada a exceso de stock
+
+munich:
+  empresa: Munich
+  sector: Footwear
+  pais: ES
+  prioridad: 2
+  status: 1. Primer mensaje
+  contactos:
+    - nombre: Tatiana Jordan
+      rol: Desconocido
+  ultimo_contacto: 2026-06-17
+  nota: "Visita Bcn-mad"
+
+desigual:
+  empresa: Desigual
+  sector: Apparel
+  pais: ES
+  prioridad: 2
+  status: 0. Prospección
+  contactos:
+    - nombre: Fran Sanchez
+      rol: Desconocido
+    - nombre: Carles Berni
+      rol: Desconocido
+  nota: Diego trabajó 5+ años ahí (2009-2014)
+
+lefties:
+  empresa: Lefties
+  sector: Apparel
+  pais: ES
+  prioridad: 2
+  status: 0. Prospección
+  contactos:
+    - nombre: Muriel
+      rol: Desconocido
+  ceo: Xavi Ruz
+  nota: Diego trabajó ahí 2014-2015
+
+brownie:
+  empresa: Brownie
+  sector: Apparel
+  pais: ES
+  prioridad: 1
+  status: 0. Prospección
+  contactos:
+    - nombre: Vir / Joan Garcia
+      rol: Desconocido
+  ceo: Joana
+
+scalpers:
+  empresa: Scalpers
+  sector: Apparel
+  pais: ES
+  prioridad: 1
+  status: 0. Prospección
+  contactos:
+    - nombre: Ivan Marti
+      rol: Desconocido
+  nota: Ex-Mango
+
+elena_cusi:
+  empresa: "Ex-Desigual / Ex-Puig / Ex-L'Oréal"
+  sector: Beauty / Fashion / Lifestyle
+  pais: ES
+  prioridad: 2
+  status: 0. Prospección
+  contactos:
+    - nombre: Elena Cusi Costa
+      rol: "Ex-Global Director Ecommerce Desigual (2009-2016), Ex-Puig/L'Oréal, Ex-CEO Paupa Beach"
+      linkedin: https://es.linkedin.com/in/elena-cusi-2b44b41
+  notas_clave:
+    - Buscando empleo activamente (desde ~agosto 2025)
+    - 20+ años en beauty/fragrances/lifestyle (Puig, L'Oréal)
+    - MBA IESE
+    - En Desigual multiplicó ventas x10 en 6 años, ecommerce al 10% del total
+    - Conforme a roles en beauty, health y ecosistemas/clusters
+  oportunidad_applychain:
+    - Contacto estratégico: red amplia en Puig, L'Oréal, Desigual actuales
+    - No lead directo (sin rol actual con poder de decisión)
+    - Potencial embajadora o referidora en el sector fashion/beauty Barcelona
+  proxima_accion: Escribirle esta semana (mensaje corto, networking, no venta)
+
+love_bonito:
+  empresa: Love Bonito
+  sector: Apparel
+  pais: ES
+  prioridad: 1
+  status: 0. Prospección
+  contactos:
+    - nombre: "recomendado por Vorada (Lulu)"
+      rol: Desconocido
+
+nike:
+  empresa: Nike
+  sector: Footwear
+  pais: ES
+  prioridad: 1
+  status: 0. Prospección
+  contactos:
+    - nombre: Pol Frances
+      rol: Desconocido
+
+pomelo:
+  empresa: Pomelo
+  sector: Apparel
+  pais: ES
+  prioridad: 1
+  status: 0. Prospección
+  contactos:
+    - nombre: Vorada
+      rol: Desconocido
+
+rhythm:
+  empresa: Rhythm
+  sector: Apparel
+  pais: ES
+  prioridad: 1
+  status: 0. Prospección
+  contactos:
+    - nombre: Marie Azam
+      rol: Desconocido
+
+qooqer:
+  empresa: Qooqer
+  sector: Apparel
+  pais: ES
+  prioridad: 1
+  status: 0. Prospección
+  contactos:
+    - nombre: Hande
+      rol: Desconocido
+  nota: Ex-Encuentro
+
+simorra:
+  empresa: Simorra
+  sector: Apparel
+  pais: ES
+  prioridad: 2
+  status: 0. Prospección
+  contactos:
+    - nombre: Núria Valero
+      rol: Desconocido
+
+smash:
+  empresa: Smash
+  sector: Apparel
+  pais: ES
+  prioridad: 1
+  status: 0. Prospección
+  contactos:
+    - nombre: Veronika Bossio
+      rol: Desconocido
+
+vallfirest:
+  empresa: Vallfirest
+  sector: Engineering (fuera de sector)
+  pais: ES
+  prioridad: 1
+  status: 0. Prospección
+  contactos:
+    - nombre: Javi
+      rol: Desconocido
+
+james_welsh:
+  empresa: Garage Beer Co
+  sector: Craft beer / F&B
+  pais: ES
+  prioridad: 2
+  status: 0. Prospección
+  contactos:
+    - nombre: James Welsh
+      rol: Co-founder & CEO
+      linkedin: https://es.linkedin.com/in/jameswelsh
+  notas_clave:
+    - Co-fundó Garage Beer Co en 2015 con Alberto Zamborlin
+    - Británico, ex-tech, se mudó a Barcelona
+    - Crowdfundaron €500K en Crowdcube Spain (2016)
+    - Padre del cole del hijo de Diego
+    - Recomendó formulario Netmentora Catalunya
+  oportunidad_applychain:
+    - Relación personal (colegio del hijo)
+    - Contacto para networking, no cliente directo (F&B, no fashion)
+  proxima_accion: Agradecerle el formulario Netmentora, mantener contacto
+
+# === PROVEEDORES (no clientes potenciales) ===
+
+george_zhou:
+  empresa: EcoNoah Eyewear
+  sector: Eyewear manufacturing
+  pais: Desconocido
+  prioridad: 2
+  status: 0. Contacto exploratorio
+  contactos:
+    - nombre: George Zhou
+      rol: Founder/CEO
+  nota: Potencial socio/proveedor, no cliente
+
+# === CONTACTOS DESCARTADOS ===
+
+afflelou_descartat:
+  empresa: Alan Afflelou
+  sector: Eyewear
+  prioridad: 2
+  status: 6. Anulado
+  nota: No es el sector de Diego. Descartado 14 jul 2026.
+
+# === CONGRESOS ===
+
+congresos:
+  - nombre: CSCMP
+    descripcion: Supply Chain
+    fecha: jun-25
+  - nombre: SIL
+    descripcion: Salón de la innovación logística
+    fecha: jun-25
+  - nombre: MWC
+    descripcion: Mobile World Capital
+    fecha: mar-25
+  - nombre: MOMAD
+    descripcion: Salón Internacional de Moda, Calzado y Accesorios (IFEMA Madrid)
+    fecha: jul-25
+  - nombre: 080
+    fecha: abr-25
