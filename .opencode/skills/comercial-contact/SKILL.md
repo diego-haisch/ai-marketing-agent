@@ -66,6 +66,47 @@ Use Spanish as the default language. The structure below:
 - Commercial intelligence playbook in `.opencode/skills/comercial-intelligence/` — check for evolving strategy, hooks, and target priorities
 - Weekly plans in `docs/comercial/` — see what was done and what's coming
 
+## WhatsApp-specific approach
+
+WhatsApp is a valid channel for re-contacts and warm leads. Rules differ from email/LinkedIn:
+
+- **First message on WhatsApp**: Max 2-3 lines. No pitch. Just establish connection and open conversation.
+- **Re-contact after redirect**: Reference the previous conversation briefly, then hook with a specific pain point or new development. Never send long messages to strangers.
+- **Tone**: Casual, like writing to a friend of a friend. No formal greetings, no "Estimado".
+- **Pain point hook**: Use specific operational language the target would recognize ("modelo one shot", "clusterización manual", "stock dormido"). Avoid generic terms like "forecasting con IA".
+- **Rule of thumb**: If the message is longer than 5 lines on WhatsApp, it's too long.
+
+### Re-contact message structure (WhatsApp)
+1. Brief reminder of connection ("te escribí hace unas semanas", "hablé con [nombre]")
+2. Specific hook based on known pain points (from interviews, intel, or previous conversations)
+3. Soft CTA ("me encantaría enseñártelo sin compromiso")
+
+## Using interview pain points
+
+When we have interview data from a company, use the specific pain points identified — they're gold for targeted messaging. Reference the problems in their language, not ours.
+
+Example: Instead of "forecast con IA por SKU", say "lo del modelo one shot y la clusterización manual" — that's how THEY describe it.
+
+## Post-contact workflow (automático)
+
+Después de escribir un mensaje o averiguar info nueva de un contacto, SIEMPRE:
+
+0. **Verificar `id`** en contacts.yaml (`data/networking/contacts.yaml`):
+   - Si existe → usarlo como referencia en el fichero de contacto
+   - Si no existe → preguntar al usuario y añadirlo
+   - Formato en fichero contacto: `id: [ID]` en la primera línea del frontmatter
+
+1. **Actualizar contacts.yaml**:
+   - Añadir/modificar campos: nombre, rol, LinkedIn, empresa, sector
+   - Actualizar `ultimo_contacto` con la fecha de hoy
+   - Actualizar `status` si cambia
+   - Añadir entrada en `historial` con fecha, tipo y resumen
+
+2. **NO modificar mensajes anteriores** en el fichero de contacto (`data/comercial_contacts/`):
+   - Mantener el mensaje modelo original
+   - Añadir nueva entrada con formato: `## YYYY-MM-DD — [Canal] a [Nombre]`
+   - Ejemplo: `## 2026-07-14 — LinkedIn a Paco Sánchez (CEO)`
+
 ## Variables to ask for
 
 Before writing, ask the user for:
@@ -73,6 +114,8 @@ Before writing, ask the user for:
 - Contact person name and position (if known)
 - Reference / common contact (if any)
 - Any specific known challenges of the company
+- Whether we have interview data with this company (check `data/estudio_mercado/Entrevistas/`)
+- Preferred channel (email, LinkedIn, WhatsApp)
 
 ## Tone notes
 
@@ -80,3 +123,4 @@ Before writing, ask the user for:
 - Solutions-focused, not feature-dump
 - Avoid jargon unless specific to fashion/retail operations
 - Maintain same tone across all messages
+- On WhatsApp: extra casual, shorter, no markdown

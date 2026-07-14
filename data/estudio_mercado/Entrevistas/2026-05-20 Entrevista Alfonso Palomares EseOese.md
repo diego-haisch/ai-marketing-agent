@@ -1,3 +1,5 @@
+id:eseoese
+
 Entrevista — Alfonso Palomares
 
 Contexto: Planning, supply chain y oportunidades tecnológicas en retail moda
