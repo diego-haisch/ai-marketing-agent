@@ -34,6 +34,12 @@ Configura les variables d'entorn `LINKEDIN_ACCESS_TOKEN` i `LINKEDIN_PERSON_ID` 
 ## Interaction rules
 - Siempre que necesites preguntar algo al usuario, usa la herramienta `question` en lugar de listar preguntas en texto plano. Esto garantiza respuestas estructuradas y evita que las preguntas se pierdan.
 
+## Weekly Plan
+- Skill available: `.opencode/skills/weekly-plan/SKILL.md`
+- Default: 3h/week (2 blocks of 1.5h)
+- Priority: 5 contacts + 1 publication + interaction + follow-ups
+- Ask for weekly plan when requested
+
 ## Style
 - Direct, concise, no markdown in message bodies
 - Solutions-oriented, not feature-dump
