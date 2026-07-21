@@ -1,21 +1,74 @@
-# Plan Financiero — ApplyChain (36 meses)
+# Plan Financiero — ApplyChain (Actualizado julio 2026)
+
+## Datos base
+
+- **Inicio de operaciones:** Abril 2026
+- **Inversión inicial:** €473 (conformación sociedad)
+- **Breakeven acumulado:** Diciembre 2026
 
 ## Estructura de ingresos
 
-ApplyChain genera ingresos a través de tres líneas de negocio complementarias: bolsas de horas de consultoría estratégica, proyectos de desarrollo de reporting en Power BI, y proyectos de herramientas inteligentes a medida con IA/ML. Durante el primer año, la consultoría estratégica representa el grueso de la facturación, actuando como puerta de entrada al cliente. A partir del segundo semestre del año 1, los proyectos de reporting y herramientas inteligentes ganan tracción, y en el año 3 se incorpora un servicio SaaS que progresivamente aumenta su peso en la facturación total hasta convertirse en una pata significativa del negocio.
+ApplyChain genera ingresos a través de dos líneas principales:
+
+1. **Servicio de software (SaaS)** — Módulos de planificación de supply chain (pre-season planning, replenishment engine, forecast in-season). Pilar dominante desde el primer año.
+2. **Consultoría estratégica** — Bolsas de horas y planes de formación. Pilar complementario con peso decreciente.
+
+Distribución real por línea de negocio:
+
+| Línea | 2026 | 2027 | 2028 | 2029 | Total |
+|---|---|---|---|---|---|
+| Servicio software | €22,800 | €40,200 | €49,500 | €58,005 | €170,505 |
+| Consultoría | €3,500 | €2,000 | €6,000 | €6,000 | €17,500 |
+| Formación | €0 | €1,200 | €1,200 | €1,200 | €3,600 |
+| **Total** | **€26,300** | **€43,400** | **€56,700** | **€65,205** | **€191,605** |
 
 ## Evolución de la facturación
 
-En el año 1 la facturación se sostiene con un número reducido de clientes de consultoría, trabajados directamente por el fundador. En el año 2, con la incorporación de un consultor junior, la capacidad de servicio se amplía, lo que permite crecer en clientes de consultoría y ejecutar más proyectos de reporting y herramientas inteligentes en paralelo. En el año 3, la combinación de las tres líneas de servicio más el lanzamiento del SaaS permite multiplicar la facturación respecto al año 1, manteniendo la consultoría como base relacional comercial.
+La facturación crece de €26,300 en 2026 (9 meses de operación) a €65,205 en 2029, con un crecimiento compuesto del 25% anual. El software SaaS representa el 89% del total acumulado a 4 años.
 
-## Gastos operativos y estructura de costes
+## Gastos operativos
 
-Los costes operativos son inicialmente moderados, dominados por el desarrollo del SaaS (que concentra la mayor parte de la inversión en el periodo), gastos de gestoría, licencias tecnológicas, infraestructura cloud y la red de freelancers especializados que se activa según demanda. En el año 2 se suma el coste del consultor junior. El peso de los gastos operativos sobre ingresos es alto al principio y se reduce progresivamente a medida que los ingresos crecen y los desarrollos tecnológicos se amortizan.
+Los costes operativos están dominados por la nómina del socio fundador (76% del total a 4 años), seguido de seguridad social, gestoría y marketing.
+
+| Concepto | 2026 | 2027 | 2028 | 2029 | Total |
+|---|---|---|---|---|---|
+| Nóminas | €16,400 | €25,500 | €32,400 | €36,000 | €110,300 |
+| Seg. social autónomo | €2,700 | €3,600 | €3,600 | €3,600 | €13,500 |
+| Gestoría | €1,350 | €1,800 | €1,800 | €1,800 | €6,750 |
+| Marketing | €1,500 | €966 | €1,134 | €1,305 | €4,905 |
+| Alquiler coworking | €550 | €1,320 | €1,320 | €1,320 | €4,510 |
+| Licencias software | €900 | €600 | €600 | €600 | €2,700 |
+| Formación | €0 | €500 | €500 | €500 | €1,500 |
+| **Total Opex** | **€23,400** | **€34,286** | **€41,354** | **€45,125** | **€144,165** |
+
+Peso de Opex sobre facturación: 89% → 79% → 73% → 69%.
 
 ## Breakeven y rentabilidad
 
-El punto de equilibrio se alcanza dentro del primer año de operación, una vez que los ingresos recurrentes de consultoría y los primeros proyectos cubren los costes fijos y variables. A partir de ahí, el negocio opera en positivo, con márgenes que mejoran año tras año gracias a la escalabilidad del SaaS y la reutilización de componentes tecnológicos en los proyectos de reporting y herramientas inteligentes.
+- **Cash flow positivo primer mes:** Mayo 2026 (+€563).
+- **Breakeven acumulado:** Diciembre 2026.
+- **EBITDA:** €2,900 (2026) → €20,080 (2029).
+- **Margen EBITDA:** 11% → 21% → 27% → 31%.
+- **Beneficio neto:** €1,028 (2026) → €13,702 (2029).
 
-## Proyección a 3 años
+## Inversión y Capex
 
-En el horizonte de 36 meses, ApplyChain transita de un modelo unipersonal basado en servicios profesionales a una estructura con equipo reducido, múltiples líneas de ingreso y un producto SaaS en mercado. La facturación se multiplica, el margen operativo mejora significativamente, y el negocio se consolida como una consultora tecnológica especializada con capacidad de escalar más allá del tiempo del fundador.
+| Concepto | 2026 | 2027 | 2028 | 2029 | Total |
+|---|---|---|---|---|---|
+| Conformación sociedad | €473 | - | - | - | €473 |
+| Programación SaaS | - | €1,000 | €4,000 | €4,000 | €9,000 |
+| Acondicionamiento local | - | - | €2,000 | €2,000 | €4,000 |
+| **Total** | **€473** | **€1,000** | **€6,000** | **€6,000** | **€13,473** |
+
+## Proyección a 4 años
+
+ApplyChain transita de un modelo unipersonal basado en software SaaS a una estructura consolidada con múltiples módulos y clientes recurrentes. La facturación se multiplica x2.5 en 4 años, el margen EBITDA mejora de 11% a 31%, y el negocio se consolida como una consultora tecnológica especializada con capacidad de escalar mediante proveedores externos de desarrollo.
+
+| Año | Facturación | EBITDA % | Beneficio neto | Clientes SaaS |
+|---|---|---|---|---|
+| 2026 (abr-dic) | €26,300 | 11% | €1,028 | 2 |
+| 2027 | €43,400 | 21% | €4,646 | 3-4 |
+| 2028 | €56,700 | 27% | €9,781 | 5-6 |
+| 2029 | €65,205 | 31% | €13,702 | 7-8 |
+
+*Fuente: Plan_Financiero_updated.xlsx (pestaña Plan_financiero). Actualizado julio 2026.*
