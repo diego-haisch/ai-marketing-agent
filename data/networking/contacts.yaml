@@ -180,10 +180,10 @@ lola_casademunt:
     - nombre: Fernando Espona
       rol: Presidente
       nota: Esposo de Maite
-  nota_referencia: Autogestionado
-  ultimo_contacto: 2026-07-14
+  nota_referencia: Alessandra Guadgani (contacta cercana de Paco)
+  ultimo_contacto: 2026-07-21
   problema_detectado: Planning de compras en expansión internacional (46 mercados). Stock en unos sitios, roturas en otros.
-  proxima_accion: Esperar respuesta de Paco Sánchez (14-21 jul 2026)
+  proxima_accion: Esperar respuesta de Alessandra para conexión con Paco
   historial:
     - fecha: Desconocido
       tipo: Mensaje
@@ -194,6 +194,9 @@ lola_casademunt:
     - fecha: 2026-07-14
       tipo: LinkedIn
       resumen: Primer mensaje a Paco Sánchez (CEO). Enfoque pain point: stock en 46 mercados y 1500+ tiendas multimarca.
+    - fecha: 2026-07-21
+      tipo: LinkedIn
+      resumen: Mensaje a Alessandra Guadgani (contacta cercana de Paco). Pedir conexión con Paco.
 
 alan_afflelou:
   empresa: Alan Afflelou
