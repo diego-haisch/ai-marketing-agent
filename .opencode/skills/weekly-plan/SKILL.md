@@ -42,7 +42,7 @@ Use this skill when Diego asks for his weekly plan, time allocation, or commerci
 
 ## When Generating the Plan
 
-1. **Read current pipeline** from `data/networking/contacts.yaml`
+1. **Read current pipeline** from `comercial/pipeline.yaml`
 2. **Identify next 5 contacts** based on:
    - Pipeline stage (prioritize Stage 1-2: first contact / follow-up)
    - Last contact date (>2 weeks = priority)
@@ -80,6 +80,7 @@ Use this skill when Diego asks for his weekly plan, time allocation, or commerci
 ## Variables to Consider
 
 Before generating the plan, check:
+- **Consultar www.applychain.es** para info actualizada de servicios y novedades
 - Current pipeline status (contacts.yaml)
 - Recent LinkedIn activity (linkedin_get_own_posts)
 - Upcoming events or deadlines

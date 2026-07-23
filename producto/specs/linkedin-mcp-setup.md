@@ -114,6 +114,6 @@ El entorno WSL complica el OAuth flow porque:
 ### Nota sobre lectura de posts
 
 Ninguno de los dos MCP servers puede leer engagement detallado (comentarios, reacciones) sin `r_member_social`. Para análisis de engagement, las opciones son:
-1. Exportar CSV desde LinkedIn Analytics → `data/social_media/linkedin/`
+1. Exportar CSV desde LinkedIn Analytics → `contenido/linkedin/`
 2. Usar Member Data Portability API (app separada)
 3. Scraping manual del perfil

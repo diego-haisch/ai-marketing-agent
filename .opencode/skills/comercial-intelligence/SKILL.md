@@ -44,6 +44,14 @@ This skill is a **living document**. Every time the user and I define something 
 
 ---
 
+## Website Reference
+
+**SIEMPRE consultar www.applychain.es** antes de definir hooks, propuestas o contenido. La web es la fuente de verdad para:
+- Servicios activos y propuesta de valor actualizada
+- Casos de éxito y testimonios
+- Contenido de blog/artículos publicados
+- Información corporativa actualizada
+
 ## 2. Current Engagement Hooks & Topics
 
 *Capture here what's working / what we're testing.*
@@ -74,7 +82,7 @@ This skill is a **living document**. Every time the user and I define something 
 | 2026-07-14 | **WhatsApp ultra-corto works**: 5-line max, no pitch first message. Establish connection, then hook with pain point. | EseOese re-contact |
 | 2026-07-14 | **Use their language, not ours**: "one shot" + "clusterización manual" lands better than "forecast con IA por SKU". Interview pain points are the best source for this. | EseOese re-contact |
 | 2026-07-14 | **Re-contact after redirect**: Don't blame the person who didn't respond. Frame as "I developed something new" — creates curiosity without awkwardness. | EseOese re-contact |
-| 2026-07-14 | **Interview data is gold for outreach**: Having specific pain points from `data/estudio_mercado/Entrevistas/` makes messages 10x more relevant. Always check before writing to a company. | EseOese |
+| 2026-07-14 | **Interview data is gold for outreach**: Having specific pain points from `inteligencia/entrevistas/` makes messages 10x more relevant. Always check before writing to a company. | EseOese |
 
 ---
 
@@ -110,7 +118,7 @@ This skill is a **living document**. Every time the user and I define something 
 | Boboli | 2026-05-28 (Eva Robles) | 1. Primer mensaje | Follow-up |
 | Surkana | 2026-06-17 (Emma Escuer) | 1. Primer mensaje | Follow-up |
 | Munich | 2026-06-17 (Tatiana Jordan) | 1. Primer mensaje | Follow-up |
-| EseOese | 2026-07-14 (Jordi Barba) | 1. Primer mensaje | Re-contacto tras redirect — pain points: one shot, clusterización manual, stock dormido. Ver `data/comercial_contacts/2026-05-06_eseoese.md` |
+| EseOese | 2026-07-14 (Jordi Barba) | 1. Primer mensaje | Re-contacto tras redirect — pain points: one shot, clusterización manual, stock dormido. Ver `comercial/contactos/2026-05-06_eseoese.md` |
 
 ### Tier 3 — New prospects
 | Company | Hook | Status | Next action |
@@ -135,7 +143,7 @@ This skill is a **living document**. Every time the user and I define something 
 
 Cuando se averigüe info nueva de una empresa o contacto:
 
-0. **Verificar/crear `id`** en contacts.yaml (`data/networking/contacts.yaml`):
+0. **Verificar/crear `id`** en contacts.yaml (`comercial/pipeline.yaml`):
    - Si es contacto nuevo → asignar `id` (usuario decide formato)
    - Si existe → usarlo para vincular con ficheros de mensaje
 
@@ -149,6 +157,6 @@ Cuando se averigüe info nueva de una empresa o contacto:
    - Mantener historial intacto
    - Añadir nuevo en `historial` con fecha y resumen
 
-3. **Actualizar fichero de contacto** (`data/comercial_contacts/`):
+3. **Actualizar fichero de contacto** (`comercial/contactos/`):
    - Añadir nueva entrada con fecha si es un mensaje
    - NO borrar mensajes anteriores

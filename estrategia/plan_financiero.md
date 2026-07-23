@@ -45,7 +45,7 @@ Peso de Opex sobre facturación: 89% → 79% → 73% → 69%.
 
 ## Breakeven y rentabilidad
 
-- **Cash flow positivo primer mes:** Mayo 2026 (+€563).
+- **Cash flow operativo positivo primer mes:** Septiembre 2026 (+€315).
 - **Breakeven acumulado:** Diciembre 2026.
 - **EBITDA:** €2,900 (2026) → €20,080 (2029).
 - **Margen EBITDA:** 11% → 21% → 27% → 31%.

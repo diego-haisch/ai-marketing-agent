@@ -35,7 +35,7 @@ ApplyChain nace para resolver un problema crítico en las empresas de retail: la
 
 - Especialización en Supply Chain y Retail, combinando conocimiento operativo profundo con capacidades tecnológicas avanzadas.
 - Software modular: cada módulo resuelve un problema concreto, sin plataformas monolíticas.
-- Time-to-value inferior a 4 semanas desde la firma hasta el primer resultado.
+- Time-to-value de entre 4 y 8 semanas desde la firma hasta el primer resultado.
 - Soluciones prácticas y escalables diseñadas para pymes con recursos limitados.
 - Costes de adopción reducidos frente a grandes consultoras o plataformas del mercado.
 
@@ -78,7 +78,7 @@ La consultoría permite un contacto directo con los clientes para detectar sus n
   - Lanzamiento de los 3 módulos software con primeros clientes.
   - 2 clientes activos de SaaS (Bimani, Barner).
   - Consultoría estratégica con bolsas de horas.
-  - Breakeven operativo: diciembre 2026.
+  - Breakeven neto: diciembre 2026.
   - Validación de la propuesta de valor con mercado real.
 
 - **Año 2 (abril 2027 - marzo 2028):**
@@ -216,6 +216,19 @@ Sistema de forecasting de ventas basado en Random Forest para prever la demanda 
 - Dockerizable para despliegue flexible.
 
 **Caso de uso:** Empresas que necesitan prever demanda futura para optimizar compras, producción y distribución.
+
+#### 5.1.4 Dashboards Power BI integrales
+
+Desarrollo de cuadros de mando e informes en Power BI diseñados específicamente para la operativa de supply chain de moda, calzado y accesorios.
+
+**Funcionalidades:**
+- Modelos de datos adaptados a la operativa de retail (ventas, stock, producción, finanzas).
+- Medidas DAX y KPIs personalizados para supply chain.
+- Dashboards operativos de toma de decisión: cobertura de stock, rotaciones, alertas de ruptura.
+- Integración con las fuentes de datos del cliente (ERP, POS, Excel).
+- Formación básica al equipo interno para auto-gestión de informes.
+
+**Caso de uso:** Empresas que necesitan visibilidad inmediata sobre su operativa sin necesidad de desarrollar herramientas propias. Complemento natural de los módulos de software para clientes que requieren reporting operativo integrado.
 
 ### 5.2 Consultoría estratégica (pilar complementario)
 
@@ -386,7 +399,7 @@ Los módulos siguen una arquitectura modular y API-driven:
 | **Beneficio neto** | €1,028 | €4,646 | €9,781 | €13,702 |
 | **Inversión inicial** | €473 | - | - | - |
 
-ApplyChain se constituye con una inversión mínima (€473). El negocio genera cash flow positivo desde mayo 2026 y alcanza el breakeven acumulado en diciembre 2026.
+ApplyChain se constituye con una inversión mínima destinada exclusivamente a los gastos de constitución de la sociedad (€473). Los gastos operativos iniciales —nómina del socio fundador, gestoría, licencias y marketing— se cubren con los propios ingresos del negocio desde el primer mes de operación. No se requiere aportación de capital externo.
 
 ### 9.2 Previsión de ingresos
 
@@ -438,19 +451,39 @@ ApplyChain se constituye con una inversión mínima (€473). El negocio genera 
 
 ### 9.6 Cash flow operativo mensual (2026)
 
-| Mes | Facturación | Gastos | Cash flow mensual | Acumulado |
-|---|---|---|---|---|
-| Abr | €0 | -€873 | -€873 | -€873 |
-| May | €1,750 | -€1,273 | +€563 | -€310 |
-| Jun | €1,750 | -€3,198 | -€1,448 | -€1,758 |
-| Jul | €1,125 | -€4,804 | -€3,679 | -€5,437 |
-| Ago | €1,875 | -€5,589 | -€3,714 | -€9,151 |
-| Sep | €1,875 | -€5,274 | -€3,399 | -€12,550 |
-| Oct | €2,775 | -€1,636 | +€1,139 | -€11,411 |
-| Nov | €6,525 | -€1,671 | +€4,854 | -€6,557 |
-| Dic | €2,525 | -€5,812 | -€3,287 | -€9,844 |
+Cash flow operativo = Facturación - OPEX. Sin incluir impuestos ni CAPEX.
 
-**Breakeven acumulado:** Diciembre 2026.
+| Mes | Facturación | OPEX | CF operativo | Acumulado |
+|---|---|---|---|---|
+| Ene-Mar | €0 | €0 | €0 | €0 |
+| Abr | €1.750 | -€2.150 | -€400 | -€400 |
+| May | €1.750 | -€2.150 | -€400 | -€800 |
+| Jun | €1.125 | -€3.050 | -€1.925 | -€2.725 |
+| Jul | €1.875 | -€3.250 | -€1.375 | -€4.100 |
+| Ago | €1.875 | -€2.660 | -€785 | -€4.885 |
+| Sep | €2.775 | -€2.460 | +€315 | -€4.570 |
+| Oct | €6.525 | -€2.560 | +€3.965 | -€605 |
+| Nov | €2.525 | -€2.560 | -€35 | -€640 |
+| Dic | €6.100 | -€2.560 | +€3.540 | +€2.900 |
+| **Total** | **€26.300** | **-€23.400** | **+€2.900** | |
+
+Desglose OPEX mensual por partida (Abr-Dic):
+
+| Partida | Abr | May | Jun | Jul | Ago | Sep | Oct | Nov | Dic | Total |
+|---|---|---|---|---|---|---|---|---|---|---|
+| Nóminas | -1.600 | -1.600 | -2.000 | -2.000 | -2.000 | -1.800 | -1.800 | -1.800 | -1.800 | -16.400 |
+| Seg. social | -300 | -300 | -300 | -300 | -300 | -300 | -300 | -300 | -300 | -2.700 |
+| Gestoría | -150 | -150 | -150 | -150 | -150 | -150 | -150 | -150 | -150 | -1.350 |
+| Marketing | 0 | 0 | -500 | -700 | 0 | 0 | -100 | -100 | -100 | -1.500 |
+| Coworking | 0 | 0 | 0 | 0 | 0 | -110 | -110 | -110 | -110 | -440 |
+| Licencias | -100 | -100 | -100 | -100 | -100 | -100 | -100 | -100 | -100 | -900 |
+| **Total OPEX** | **-2.150** | **-2.150** | **-3.050** | **-3.250** | **-2.660** | **-2.460** | **-2.560** | **-2.560** | **-2.560** | **-21.150** |
+
+**CAPEX 2026:** Conformación sociedad -€473 (abril).
+
+**Impuestos 2026:** IRPF provisión -€558 (jul/oct) + IS -€1.315 (dic) = -€1.873.
+
+**Breakeven acumulado (cash flow operativo):** Septiembre 2026 (primer mes positivo). Breakeven acumulado neto (incluyendo impuestos): Diciembre 2026.
 
 ---
 
@@ -475,25 +508,3 @@ La empresa ha realizado un trabajo activo de networking con empresas del sector 
 - Perfil profesional activo en LinkedIn con publicaciones regulares sobre supply chain y tecnología.
 - Contenido educativo sobre inteligencia artificial aplicada a retail.
 - Artículos sobre mejores prácticas en planificación de compras y reaprovisionamiento.
-
----
-
-## Anexos
-
-### Anexo 1: Detalle de los módulos de software
-
-Para el detalle técnico de cada módulo, consultar los catálogos de producto en `data/product_catalog/`:
-
-- `README_pre-season_planning.md` — Arquitectura, API y modelo ML del Collection Flow.
-- `README_replenishment_engine.md` — Motor de reaprovisionamiento y dashboard.
-- `README_forecast_in-season.md` — Sistema de forecasting de ventas a 12 meses.
-
-### Anexo 2: Referencia al Business Plan inicial
-
-Este documento sustituye al Business Plan inicial (guardado como `bp_inicial.md`), que fue elaborado antes del inicio de operaciones en abril de 2026. Las principales diferencias se detallan en la sección de gaps detectados:
-
-- **Estructura de ingresos:** El plan inicial priorizaba la consultoría; la realidad ha posicionado al software como pilar dominante (87%).
-- **Inversión inicial:** El plan inicial estimaba €17,000; la inversión real fue de €473.
-- **Equipo:** El plan inicial preveía incorporar un consultor junior en el año 2; el modelo real se mantiene unipersonal con freelancers externos hasta 2029.
-- **Productos:** El plan inicial describía servicios genéricos; el plan actual define 3 módulos concretos con arquitectura documentada.
-- **Estudio de mercado:** El plan actual incorpora los hallazgos de 11 entrevistas cualitativas realizadas entre abril y junio de 2026.

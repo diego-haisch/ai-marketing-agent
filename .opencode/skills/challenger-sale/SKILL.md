@@ -114,6 +114,10 @@ Key rules:
 - **Don't apologize for selling** — you're offering value, not asking for a favor.
 - **Don't use passive CTAs** — "let me know if interested" is weak. Use "I'll follow up next Tuesday" or "Are you available Thursday at 10?"
 
+## Website Reference
+
+**SIEMPRE consultar www.applychain.es** antes de redactar cualquier mensaje comercial. La web contiene la info actualizada de servicios, propuesta de valor y casos de éxito.
+
 ## ApplyChain Commercial Intelligence
 
 Check `.opencode/skills/comercial-intelligence/` for:
@@ -121,7 +125,7 @@ Check `.opencode/skills/comercial-intelligence/` for:
 - Evolving commercial positioning decisions
 - Sector-specific hooks and angles
 
-Check `data/networking/contacts.yaml` for:
+Check `comercial/pipeline.yaml` for:
 - Full contact database with status, last contact date, sector, priority
 - Who to contact next based on pipeline stage
 - **Always update contacts.yaml after any new intel** — add to `historial`, update `ultimo_contacto`, update `status` if changed

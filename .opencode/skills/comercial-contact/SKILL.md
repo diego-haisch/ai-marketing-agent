@@ -62,9 +62,10 @@ Use Spanish as the default language. The structure below:
 
 ## Supporting materials
 
-- Commercial presentations (PPTX) in `data/presentations/` — use for case studies, examples, client data
+- **Website**: www.applychain.es — SIEMPRE consultar antes de redactar mensajes para tener info actualizada de servicios, casos y propuesta de valor
+- Commercial presentations (PPTX) in `producto/presentaciones/` — use for case studies, examples, client data
 - Commercial intelligence playbook in `.opencode/skills/comercial-intelligence/` — check for evolving strategy, hooks, and target priorities
-- Weekly plans in `docs/comercial/` — see what was done and what's coming
+- Weekly plans in `comercial/planes_semanales/` — see what was done and what's coming
 
 ## WhatsApp-specific approach
 
@@ -91,7 +92,7 @@ Example: Instead of "forecast con IA por SKU", say "lo del modelo one shot y la 
 
 Después de escribir un mensaje o averiguar info nueva de un contacto, SIEMPRE:
 
-0. **Verificar `id`** en contacts.yaml (`data/networking/contacts.yaml`):
+0. **Verificar `id`** en contacts.yaml (`comercial/pipeline.yaml`):
    - Si existe → usarlo como referencia en el fichero de contacto
    - Si no existe → preguntar al usuario y añadirlo
    - Formato en fichero contacto: `id: [ID]` en la primera línea del frontmatter
@@ -102,7 +103,7 @@ Después de escribir un mensaje o averiguar info nueva de un contacto, SIEMPRE:
    - Actualizar `status` si cambia
    - Añadir entrada en `historial` con fecha, tipo y resumen
 
-2. **NO modificar mensajes anteriores** en el fichero de contacto (`data/comercial_contacts/`):
+2. **NO modificar mensajes anteriores** en el fichero de contacto (`comercial/contactos/`):
    - Mantener el mensaje modelo original
    - Añadir nueva entrada con formato: `## YYYY-MM-DD — [Canal] a [Nombre]`
    - Ejemplo: `## 2026-07-14 — LinkedIn a Paco Sánchez (CEO)`
@@ -114,7 +115,7 @@ Before writing, ask the user for:
 - Contact person name and position (if known)
 - Reference / common contact (if any)
 - Any specific known challenges of the company
-- Whether we have interview data with this company (check `data/estudio_mercado/Entrevistas/`)
+- Whether we have interview data with this company (check `inteligencia/entrevistas/`)
 - Preferred channel (email, LinkedIn, WhatsApp)
 
 ## Tone notes

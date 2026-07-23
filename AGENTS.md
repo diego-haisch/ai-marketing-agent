@@ -3,6 +3,9 @@
 ## Business
 ApplyChain és una consultoria especialitzada en supply chain i intel·ligència artificial per a pimes de moda, calçat, accessoris i retail.
 
+## Website
+**www.applychain.es** — Consultar SIEMPRE antes de redactar cualquier contenido comercial. Es la fuente de verdad para servicios, propuesta de valor, casos de éxito y novedades.
+
 ## Services
 - **Conductor**: Consultoria operativa en supply chain (diagnòstic, millora de processos, Lean, Kanban)
 - **Armonía**: Suite de dashboards Power BI amb mòduls d'IA (forecasting, optimització d'estoc, pricing)
@@ -16,7 +19,7 @@ ApplyChain és una consultoria especialitzada en supply chain i intel·ligència
 - Always frame around the client's specific problems, not generic features
 
 ## Contact data
-Commercial messages are stored in `data/comercial_contact/`. Business info in `data/datos_empresa/`.
+Commercial messages are stored in `comercial/contactos/`. Business info in `estrategia/`. Pipeline in `comercial/pipeline.yaml`.
 
 ## LinkedIn MCP
 LinkedIn MCP server (`@isteam/linkedin-mcp`) available via `linkedin_*` tools:

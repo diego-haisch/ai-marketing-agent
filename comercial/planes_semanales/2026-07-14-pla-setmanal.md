@@ -70,7 +70,7 @@ Antes de cada mensaje, recuerda:
 >
 > ¡Un abrazo!
 
-**Fichero actualizado:** `data/comercial_contact/eseoese`
+**Fichero actualizado:** `comercial/contactos/2026-07-14_eseoese.md`
 
 ---
 
@@ -104,7 +104,7 @@ Antes de cada mensaje, recuerda:
 >
 > ¡Gracias!
 
-**Fichero actualizado:** `data/comercial_contact/koroshi`
+**Fichero actualizado:** `comercial/contactos/2026-05-06_koroshi.md`
 
 #### Gigi Studios — Usar tu otro contacto
 **Tipo de stakeholder:** Eyewear → Liderar con experiencia del sector (Etnia Barcelona).
@@ -123,7 +123,7 @@ Antes de cada mensaje, recuerda:
 >
 > ¡Gracias!
 
-**Fichero actualizado:** `data/comercial_contact/gigi_studios.md`
+**Fichero actualizado:** `comercial/contactos/2026-05-06_gigi_studios.md`
 
 ---
 
@@ -144,7 +144,7 @@ Antes de cada mensaje, recuerda:
 >
 > ¡Gracias!
 
-**Fichero creado:** `data/comercial_contact/casa_de_mont.md`
+**Fichero creado:** `comercial/contactos/2026-07-14_Lola_casademunt.md`
 
 ---
 
@@ -168,7 +168,7 @@ Antes de cada mensaje, recuerda:
 - [ ] 1 post publicado en LinkedIn
 - [ ] 5 contactos re-escritos o nuevos (EseOese, Surkana, Koroshi, Gigi, Lola Casademunt)
 - [ ] Respuestas recibidas documentadas
-- [ ] Contactos actualizados en `data/comercial_contact/contactes.yaml`
+- [ ] Contactos actualizados en `comercial/pipeline.yaml`
 
 ---
 
@@ -192,7 +192,7 @@ Antes de cada mensaje, recuerda:
 ### Referencias
 
 - Skill Challenger Sale: `.opencode/skills/challenger-sale/SKILL.md`
-- Base de datos contactos: `data/comercial_contact/contactes.yaml`
+- Base de datos contactos: `comercial/pipeline.yaml`
 - Inteligencia comercial: `.opencode/skills/comercial-intelligence/`
 
 ---

@@ -152,6 +152,7 @@ Before writing, ask the user for:
 - Any new developments on Diego's side (client wins, product updates)
 - Any market hooks (events, news, trends) to use as context
 - Language preference for this specific message
+- **Consultar www.applychain.es** para info actualizada de servicios, novedades y casos antes de redactar
 
 ---
 
@@ -159,7 +160,7 @@ Before writing, ask the user for:
 
 Después de cada follow-up, SIEMPRE:
 
-0. **Usar `id`** para buscar historial previo en contacts.yaml (`data/networking/contacts.yaml`):
+0. **Usar `id`** para buscar historial previo en contacts.yaml (`comercial/pipeline.yaml`):
    - Buscar por `id` para encontrar el contacto
    - Si no existe `id`, usar el nombre de la empresa como referencia
 
@@ -168,6 +169,6 @@ Después de cada follow-up, SIEMPRE:
    - Actualizar `ultimo_contacto` con la fecha de hoy
    - Actualizar `status` si avanza de pipeline (ej: 1→2)
 
-2. **NO modificar mensajes anteriores** en el fichero de contacto (`data/comercial_contacts/`):
+2. **NO modificar mensajes anteriores** en el fichero de contacto (`comercial/contactos/`):
    - Añadir nueva entrada con formato: `## YYYY-MM-DD — [Canal] a [Nombre]`
    - Mantener historial de mensajes intacto
