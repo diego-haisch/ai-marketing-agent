@@ -1,0 +1,1 @@
+https://www.linkedin.com/posts/pierre-r-5566601bb_how-to-start-learning-supply-chain-analytics-share-7464399861757542400-Rbxp/?utm_source=share&utm_medium=member_android&rcm=ACoAAAeWIpIBUC11_rU9eaVncPJ12y0UPk_-dOo
