@@ -1,3 +1,6 @@
+id:lolacasa
+via:mail
+
 hola pablo
 
 te escribo por contacto de paco Sánchez.
