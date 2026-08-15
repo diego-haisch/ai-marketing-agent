@@ -6,10 +6,6 @@ ApplyChain és una consultoria especialitzada en supply chain i intel·ligència
 ## Website
 **www.applychain.es** — Consultar SIEMPRE antes de redactar cualquier contenido comercial. Es la fuente de verdad para servicios, propuesta de valor, casos de éxito y novedades.
 
-## Services
-- **Conductor**: Consultoria operativa en supply chain (diagnòstic, millora de processos, Lean, Kanban)
-- **Armonía**: Suite de dashboards Power BI amb mòduls d'IA (forecasting, optimització d'estoc, pricing)
-- **Maestro**: Formació per a equips interns en BI, IA i Big Data
 
 ## Commercial approach
 - First-contact messages: conversational, reference-based when possible
@@ -46,4 +42,4 @@ Configura les variables d'entorn `LINKEDIN_ACCESS_TOKEN` i `LINKEDIN_PERSON_ID` 
 ## Style
 - Direct, concise, no markdown in message bodies
 - Solutions-oriented, not feature-dump
-- No emojis unless requested
+- emojis for non so formal conversations
