@@ -8,6 +8,10 @@
 
 ## Diagnóstico actual
 
+### Dirección estratégica de marca
+
+La web debe acompañar una posible evolución de ApplyChain hacia una comunicación más clara, visual y contemporánea, sin perder rigor operativo. La diferenciación no debe basarse en parecer una marca de consumo, sino en explicar mejor los problemas invisibles de la supply chain y sus consecuencias sobre stock, margen y decisiones. Esta dirección es todavía una hipótesis estratégica; su identidad, tono y ejecución se concretarán más adelante.
+
 ### Lo que funciona
 
 - **Enfoque en problema, no en empresa.** El titular "Solo el 18% de las empresas ya decide con datos inteligentes" genera urgencia y está alineado con el enfoque Challenger.

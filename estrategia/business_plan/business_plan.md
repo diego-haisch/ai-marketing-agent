@@ -319,6 +319,8 @@ Los costes de desarrollo de software se amortizan progresivamente:
 - Generación de leads cualificados mediante contenido que demuestre expertise y autoridad en el sector.
 - Estrategia de marca personal para convertirse en referencia de supply chain y tecnología en redes sociales.
 
+La dirección estratégica de comunicación busca diferenciar ApplyChain de la imagen tradicional y excesivamente técnica del sector. La marca puede hacer visible la parte humana y económica de la supply chain: decisiones tardías, stock dormido, dependencia del Excel y desconexión entre planificación y tienda. El objetivo no es hacer entretenimiento ni priorizar la viralidad, sino explicar problemas operativos con una voz más clara, visual y contemporánea, apoyada en la experiencia real de Diego y conectada con las soluciones de forecasting, planificación y reaprovisionamiento. Esta hipótesis se desarrollará en una fase posterior, sin convertirla todavía en un plan de contenidos cerrado.
+
 ### 7.2 Pipeline comercial actual
 
 **Clientes activos:**
