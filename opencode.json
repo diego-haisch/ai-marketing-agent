@@ -14,6 +14,11 @@
         "LINKEDIN_PERSON_ID": "{env:LINKEDIN_PERSON_ID}",
         "LINKEDIN_MODE": "member"
       }
+    },
+    "granola": {
+      "type": "remote",
+      "url": "https://mcp.granola.ai/mcp",
+      "enabled": true
     }
   }
 }

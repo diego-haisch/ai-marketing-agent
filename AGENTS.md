@@ -32,6 +32,7 @@ Configura les variables d'entorn `LINKEDIN_ACCESS_TOKEN` i `LINKEDIN_PERSON_ID` 
 
 ## Interaction rules
 - Siempre que necesites preguntar algo al usuario, usa la herramienta `question` en lugar de listar preguntas en texto plano. Esto garantiza respuestas estructuradas y evita que las preguntas se pierdan.
+- Cuando el usuario diga `cierra sesión`, `cerrar sesión`, `cierro la sesión` o utilice `/close`, cargar el skill `session-close` y seguir su procedimiento de cierre.
 
 ## Weekly Plan
 - Skill available: `.opencode/skills/weekly-plan/SKILL.md`
