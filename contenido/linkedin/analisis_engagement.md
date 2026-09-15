@@ -155,6 +155,16 @@ Además de las métricas de LinkedIn, registrar:
 
 ---
 
+# Aprendizaje sesión 15-sep-2026 — Tipo mensaje personal-humano
+
+Esquema validado con Diego para futuro: no solo hablar de necesidades que el proyecto resuelve, sino mostrar quién hay detrás.
+
+Estructura: 1) momento personal real (familia, caos, bibliotecas/cafeterías, paciencia), 2) lucha emprendedora (nadie te persigue salvo clientes/facturas, empujar solo), 3) aprendizaje técnico que nace de ahí (delegar en agentes IA, sin código, romper zona confort), 4) cierre filosófico (convivir con incertidumbre/caos) + CTA comunidad con humor.
+
+Tono: directo, vulnerable, con iconitos y humor ligero. Español. Ejemplo: `publicaciones/2026-09-15_vuelta_al_cole_caos_aprendizaje.md`.
+
+---
+
 # Conclusión
 
 Existe interés por el perfil profesional y ya se ha validado que LinkedIn puede generar oportunidades.
