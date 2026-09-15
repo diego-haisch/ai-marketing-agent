@@ -150,17 +150,20 @@ gigi_studios:
     - nombre: Juan Cruz Siburu
       rol: Desconocido
       nota: Ya escrito
-    - nombre: "#PENDIENTE"
-      rol: Otro contacto interno
-      nota: Diego tiene otro contacto en la empresa
-  nota_referencia: Autogestionado
-  ultimo_contacto: 2026-07-07
+    - nombre: Ana Vilanova
+      rol: No planificación (puerta de entrada)
+      nota: Contacto via Verónica Sepacoba (ex Desigual). Pedir conexión con responsable planificación.
+  nota_referencia: Verónica Sepacoba (ex Desigual)
+  ultimo_contacto: 2026-09-15
   problema_detectado: Forecasting y replenishment (implícito del pitch)
-  proxima_accion: Escribir al otro contacto (14-18 jul)
+  proxima_accion: Seguimiento a Ana si no responde en 5-7 días
   historial:
     - fecha: 2026-07-07
       tipo: Mensaje
       resumen: Primer contacto a Juan Cruz Siburu.
+    - fecha: 2026-09-15
+      tipo: Mensaje
+      resumen: Mensaje a Ana Vilanova via Verónica Sepacoba. Pedir conexión con planificación. Enfoque Etnia + aguas tranquilas.
 
 lola_casademunt:
   id:lolacasa
@@ -168,7 +171,7 @@ lola_casademunt:
   sector: Moda premium mujer
   pais: ES
   prioridad: 1
-  status: 1. Primer mensaje
+  status: 2. Segundo mensaje
   contactos:
     - nombre: Maite Casademunt
       rol: Presidenta + Directora Creativa
@@ -180,10 +183,13 @@ lola_casademunt:
     - nombre: Fernando Espona
       rol: Presidente
       nota: Esposo de Maite
+    - nombre: Pablo Rodríguez
+      rol: Controlling
+      nota: Contacto pasado por Paco Sánchez para temas planificación y distribución. Ex Desigual.
   nota_referencia: Alessandra Guadgani (contacta cercana de Paco)
-  ultimo_contacto: 2026-07-21
+  ultimo_contacto: 2026-09-15
   problema_detectado: Planning de compras en expansión internacional (46 mercados). Stock en unos sitios, roturas en otros.
-  proxima_accion: Esperar respuesta de Alessandra para conexión con Paco
+  proxima_accion: Seguimiento a Pablo Rodríguez si no responde en 5-7 días
   historial:
     - fecha: Desconocido
       tipo: Mensaje
@@ -197,6 +203,12 @@ lola_casademunt:
     - fecha: 2026-07-21
       tipo: LinkedIn
       resumen: Mensaje a Alessandra Guadgani (contacta cercana de Paco). Pedir conexión con Paco.
+    - fecha: 2026-07-29
+      tipo: Email
+      resumen: Email a Pablo Rodríguez (Controlling, contacto via Paco). Enfoque sobrante vs venta perdida.
+    - fecha: 2026-09-15
+      tipo: Email
+      resumen: Follow-up post-verano a Pablo Rodríguez enviado. Forecast y reapro pre/in-season con IA, CTA 20 min.
 
 alan_afflelou:
   empresa: Alan Afflelou
