@@ -4,3 +4,7 @@ correcciones_bp.md
 *.png
 *Zone.Identifier*
 *cpython-312*
+# LinkedIn raw exports (pueden contener datos personales) — no versionar
+data/social/linkedin/raw/*
+# Artefactos de instalación editable
+*.egg-info/
